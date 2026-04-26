@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Rasa Manado</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="logo-area">
+                <img src="images/rasa-manado.png" alt="Logo Kuliner Manado">
+            </div>
+
+            <nav>
+                <ul class="menu">
+
+                    <li>
+                        <a href="index.html">
+                            <i class="fas fa-home"></i>
+                            <span>HOME</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="resep.html">
+                            <i class="fas fa-book-open"></i>
+                            <span>RESEP</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tentang.html">
+                            <i class="fas fa-info-circle"></i>
+                            <span>TENTANG</span>
+                        </a>
+                    </li>
+
+                    <li class="active">
+                        <a href="kontak.html">
+                            <i class="fa-solid fa-user"></i>
+                            <span>KONTAK</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </aside>
+
+        <!-- CONTENT -->
+        <main class="content">
+
+            <a href="index.html" class="btn-kembali">
+                <i class="fas fa-arrow-left"></i> Kembali
+            </a>
+
+            <section class="kontak-section">
+
+                <!-- KIRI -->
+                <div class="kontak-kiri">
+                    <span class="label">Hubungi Kami</span>
+
+                    <h1>
+                        Punya resep Makanan Khas Manado yang ingin dibagikan?
+                    </h1>
+
+                    <p>
+                        Jika kamu memiliki resep makanan khas Manado yang belum ada di website ini, kamu bisa mengirimkannya melalui form di samping.
+                    </p>
+                </div>
+
+                <!-- KANAN -->
+                <div class="kontak-kanan">
+
+                    <form id="formKontak">
+
+                        <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required>
+
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+
+                        <textarea id="pesan" name="pesan" placeholder="Resep Makanan" required></textarea>
+
+                        <button type="submit">Kirim Pesan</button>
+
+                    </form>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            © 2026 Kuliner Khas Manado<br>
+            Tesalonika Putri Wola - 231011060076 <br>
+            Program Studi Sistem Informasi, Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Sam Ratulangi.
+        </p>
+    </footer>
+
+</body>
+</html>
